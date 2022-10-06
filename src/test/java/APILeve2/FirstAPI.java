@@ -34,5 +34,6 @@ public class FirstAPI {
                 .post(BASE_URL + "/rest/api/2/issue")
                 .then()
                 .statusCode(201); // It verify the actual response code with the given code
+
     }
 }
